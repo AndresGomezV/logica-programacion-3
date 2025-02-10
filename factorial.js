@@ -16,7 +16,7 @@ const askNumber = (message) => {
 
 const factorial = (n) => {
     let result = 1;
-    //El iterador se asigna al mismo valor de n y disminuye hasta llegar a 1, se guarda la suma de cada iteración en la variable result
+    //El iterador se asigna al mismo valor de n y disminuye hasta llegar a 1, se guarda la multiplicación de cada iteración en la variable result
     for (let i = n; i > 1; i--) {
         result *= i;
     }
