@@ -9,7 +9,7 @@ const askNumber = (message) => {
         if (!/^\d+$/.test(n)) {
             console.log("El valor ingresado debe ser un entero positivo\n");
         }
-    // El bucle seguirá imprimiendo el mensaje hasta que el usuario ingrese un entero positivo
+        // El bucle seguirá imprimiendo el mensaje hasta que el usuario ingrese un entero positivo
     } while (!/^\d+$/.test(n));
     return n;
 };
